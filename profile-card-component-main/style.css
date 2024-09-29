@@ -15,8 +15,13 @@ body {
   height: 100vh;
 }
 
+/* border is used to img white round-gap */
+
 .profile-img {
   border-radius: 4rem;
+  position: relative;
+  top: -50px;
+  border: 3px solid white;
 }
 
 .blur {
@@ -39,6 +44,8 @@ body {
   display: flex;
   gap: 50px;
   margin-left: 50px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .heading {
@@ -46,8 +53,13 @@ body {
 }
 
 .profile {
-  min-height: 40vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+}
+
+span,
+p {
+  color: blue;
+  font-weight: 900;
 }
